@@ -1,30 +1,26 @@
 /* CSS DOCUMENT */
 @charset "UTF-8";
 
-.cv{
-    width: 65vw;
-    min-width: 450px;
-    margin:auto;
-    box-shadow: 15px 15px 15px #3339;
-    border-radius: 15px;
-    
-}
-
 /*estructura*/
 
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     display: flex;
+    flex-direction: column;
     padding: 50px 0;
     background: linear-gradient(rgb(195, 221, 255), #ebe7e0);
+    align-items: center;
 }
 
 header{
     background: #8fb2bd;
+    width: 65vw;
+    min-width: 450px;
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -32,15 +28,16 @@ header{
     border-radius: 0 15px 0 0;
 }
 
-.container{
+main{
     display: flex;
-    width: 100%;
+    width: 65vw;
+    min-width: 450px;
     min-height: 550px;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-main{
+.container{
     background: #ebe7e0;
     color: #333333;
     flex-basis: 0;
@@ -57,8 +54,9 @@ aside{
 }
 
 footer{
+    width: 65vw;
+    min-width: 450px;
     background: #333333;
-    flex-basis: 100%;
     color: #eee;
     padding: 20px 18px 30px 40px;
 }
