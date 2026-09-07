@@ -65,10 +65,8 @@ footer{
 
 img{
     border-radius: 100px;
-    width: 150px;
-    height: auto;
-    max-height: 190.80px;
-    margin: 0 20px 0 0
+    max-height: 191px;
+    margin: 0 20px 0 0;
 }
 
 h1{
@@ -77,7 +75,7 @@ h1{
     text-decoration: underline solid #333 17px;
     font-size: 45px;
     font-weight: 900;
-    margin: 0 0 20px 0
+    margin: 0 0 20px 0;
 }
 
 header div h2{
