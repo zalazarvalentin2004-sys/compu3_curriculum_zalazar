@@ -1,6 +1,35 @@
 /* CSS DOCUMENT */
 @charset "UTF-8";
 
+/*fonts*/
+@font-face {
+    font-family: "chivo-black";
+    src: url("fonts/chivo-black.ttf") format("truetype");
+    font-weight: bolder;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "chivo-extralightitalic";
+    src: url("fonts/Chivo-ExtraLightItalic.ttf") format("truetype");
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "chivo-extralight";
+    src: url("fonts/Chivo-ExtraLight.ttf") format("truetype");
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "bitter-light";
+    src: url("fonts/BitterPro-Light.ttf") format("truetype");
+    font-weight: lighter;
+    font-style: normal;
+}
+
 /*estructura*/
 
 *{
@@ -13,18 +42,18 @@ body{
     display: flex;
     flex-direction: column;
     padding: 50px 0;
-    background: linear-gradient(rgb(195, 221, 255), #ebe7e0);
+    background: linear-gradient(#916140, #f7b158);
     align-items: center;
 }
 
 header{
-    background: #8fb2bd;
+    background: #333;
     width: 65vw;
     min-width: 450px;
     padding: 20px;
     display: flex;
     flex-direction: row;
-    color: #333;
+    color: #eee;
     border-radius: 0 15px 0 0;
 }
 
@@ -70,77 +99,69 @@ img{
 }
 
 h1{
-    font-family: sans-serif;
+    font-family: "chivo-black", sans-serif;
     display: inline-block;
-    text-decoration: underline solid #333 17px;
+    text-decoration: underline solid #eee 17px;
     font-size: 45px;
-    font-weight: 900;
     margin: 0 0 20px 0;
 }
 
 header div h2{
-    font-family: sans-serif;
-    font-weight: 100;
+    font-family: "chivo-extralightitalic", sans-serif;
     font-size: 30px;
 }
 
 /*main items*/
 
 section .tittle{
-    font-family: sans-serif;
+    font-family: "chivo-black", sans-serif;
     font-size: 40px;
-    font-weight: 800;
     text-decoration: underline solid 13px;
     text-underline-offset: 5px;
     margin: 20px 0 18px 0;
 }
 
 section .subtittle{
-    font-family: sans-serif;
+    font-family: "bitter-light", serif;
+    line-height: 1.4;
     font-size: 22px;
-    font-weight: 100;
 }
 
 section .date{
-    font-family: sans-serif;
+    font-family: "chivo-extralight", sans-serif;
     font-size: 14px;
-    font-weight: 100;
     margin: 6px 0 20px 0;
 }
 
 /*aside items*/
 
 aside .tittle{
-    font-family: sans-serif;
+    font-family: "chivo-black", sans-serif;
     font-size: 20px;
-    font-weight: 800;
     text-decoration: underline solid 10px;
     text-underline-offset: 5px;
     margin: 0 0 20px 0;
 }
 
 aside .subtittle{
-    font-family: sans-serif;
+    font-family: "chivo-black", sans-serif;
     font-size: 16px;
-    font-weight: 700;
-    text-decoration: underline solid 2px;
+    text-decoration: underline solid 4px;
     margin: 25px 0 10px 0;
 }
 
 aside ul li{
     list-style-type: square;
-    font-family: sans-serif;
+    font-family: "chivo-extralight", sans-serif;
     font-size: 14px;
-    font-weight: 100;
     margin: 0 0 5px 0;
 }
 
 /*footer items*/
 
 footer .tittle{
-    font-family: sans-serif;
+    font-family: "chivo-black", sans-serif;
     font-size: 20px;
-    font-weight: 700;
     text-decoration: underline solid 10px;
     text-underline-offset: 5px;
     margin: 0 0 30px 0;
@@ -148,14 +169,12 @@ footer .tittle{
 
 footer ul li{
     list-style-type: square;
-    font-family: sans-serif;
+    font-family: "chivo-extralight", sans-serif;
     font-size: 14px;
-    font-weight: 100;
     margin: 0 0 5px 0;
     a{
-        font-family: sans-serif;
+        font-family: "chivo-extralight", sans-serif;
         font-size: 14px;
-        font-weight: 100;
         color: #eee;
     }
 }
